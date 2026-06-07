@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Library",
+    "category": "Learning",
+    "description": "A four-floor academic library with silent study rooms, group booths, assistive technology, archives, and a staffed research help desk.",
+    "opening_hours": "Mon-Fri 08:00-22:00; Sat-Sun 10:00-18:00",
+    "coordinates": {"lat": 51.7538, "lon": -1.2541},
+    "events": ["Referencing workshop every Tuesday", "Exam revision clinic in May", "Digital archives showcase"]
+  },
+  {
+    "id": 2,
+    "name": "Student Union",
+    "category": "Student Services",
+    "description": "Central student life building with societies office, advice centre, event hall, student shop, and wellbeing drop-in spaces.",
+    "opening_hours": "Mon-Fri 09:00-20:00; Sat 11:00-16:00; Sun closed",
+    "coordinates": {"lat": 51.7545, "lon": -1.2552},
+    "events": ["Freshers fair", "Society showcase", "International student mixer"]
+  },
+  {
+    "id": 3,
+    "name": "Cafeteria",
+    "category": "Food",
+    "description": "Main campus dining venue serving breakfast, hot lunches, vegetarian meals, halal options, coffee, and grab-and-go snacks.",
+    "opening_hours": "Mon-Fri 07:30-19:00; Sat-Sun 09:00-15:00",
+    "coordinates": {"lat": 51.7541, "lon": -1.2531},
+    "events": ["World food week", "Student meal deal launch", "Sustainability lunch talk"]
+  },
+  {
+    "id": 4,
+    "name": "Computer Lab",
+    "category": "Learning",
+    "description": "Specialist computing lab with GPU workstations, Python environments, VR kits, printing, and technical support for AI modules.",
+    "opening_hours": "Mon-Fri 08:00-21:00; Sat 10:00-17:00; Sun closed",
+    "coordinates": {"lat": 51.755, "lon": -1.2526},
+    "events": ["Python bootcamp", "Data science clinic", "Hackathon preparation session"]
+  },
+  {
+    "id": 5,
+    "name": "Lecture Hall A",
+    "category": "Teaching",
+    "description": "Large tiered lecture theatre with 300 seats, induction loop, dual projection, lecture capture, and accessible front-row seating.",
+    "opening_hours": "Mon-Fri 08:00-18:00; weekend by booking",
+    "coordinates": {"lat": 51.7549, "lon": -1.2546},
+    "events": ["Guest AI ethics lecture", "Undergraduate open day talk", "Public policy debate"]
+  },
+  {
+    "id": 6,
+    "name": "Lecture Hall B",
+    "category": "Teaching",
+    "description": "Medium lecture theatre for seminars, flipped classroom sessions, guest talks, and evening public engagement events.",
+    "opening_hours": "Mon-Fri 08:30-19:00; weekend by booking",
+    "coordinates": {"lat": 51.7553, "lon": -1.2544},
+    "events": ["Research methods seminar", "Careers panel", "Postgraduate welcome briefing"]
+  },
+  {
+    "id": 7,
+    "name": "Sports Centre",
+    "category": "Wellbeing",
+    "description": "Fitness and wellbeing facility with gym, courts, climbing wall, sports therapy, changing rooms, and inclusive sport sessions.",
+    "opening_hours": "Mon-Fri 06:30-22:00; Sat-Sun 08:00-20:00",
+    "coordinates": {"lat": 51.7529, "lon": -1.2564},
+    "events": ["Intramural finals", "Yoga for beginners", "Inclusive sports afternoon"]
+  },
+  {
+    "id": 8,
+    "name": "Administration Office",
+    "category": "Administration",
+    "description": "Main student administration office for enrolment, transcripts, fees, ID cards, letters, and registry appointments.",
+    "opening_hours": "Mon-Fri 09:00-17:00; Sat-Sun closed",
+    "coordinates": {"lat": 51.7543, "lon": -1.2522},
+    "events": ["Visa document drop-in", "Graduation briefing", "Registration support week"]
+  },
+  {
+    "id": 9,
+    "name": "Innovation Hub",
+    "category": "Enterprise",
+    "description": "Collaborative maker and start-up space with prototyping equipment, meeting pods, incubator support, and entrepreneurship mentoring.",
+    "opening_hours": "Mon-Fri 08:30-20:00; Sat 10:00-16:00; Sun closed",
+    "coordinates": {"lat": 51.7558, "lon": -1.2535},
+    "events": ["Start-up pitch night", "Design thinking sprint", "Prototype demo day"]
+  },
+  {
+    "id": 10,
+    "name": "Career Centre",
+    "category": "Student Services",
+    "description": "Careers and employability centre offering CV checks, mock interviews, placement advice, employer fairs, and graduate job support.",
+    "opening_hours": "Mon-Fri 09:00-18:00; Sat-Sun closed",
+    "coordinates": {"lat": 51.7536, "lon": -1.2529},
+    "events": ["Graduate careers fair", "LinkedIn clinic", "Mock assessment centre"]
+  },
+  {
+    "id": 11,
+    "name": "Health Centre",
+    "category": "Wellbeing",
+    "description": "Campus health service with nurse appointments, mental health referrals, vaccination clinics, and accessible consultation rooms.",
+    "opening_hours": "Mon-Fri 08:30-17:30; Sat-Sun closed",
+    "coordinates": {"lat": 51.7526, "lon": -1.2538},
+    "events": ["Flu vaccination clinic", "Mental health awareness week", "Sleep hygiene workshop"]
+  },
+  {
+    "id": 12,
+    "name": "Engineering Building",
+    "category": "Teaching",
+    "description": "Engineering teaching and research building with electronics benches, robotics labs, design studios, and project demonstration spaces.",
+    "opening_hours": "Mon-Fri 08:00-20:00; Sat 10:00-16:00; Sun closed",
+    "coordinates": {"lat": 51.7562, "lon": -1.2519},
+    "events": ["Robotics showcase", "Sustainable design review", "Industry guest lecture"]
+  },
+  {
+    "id": 13,
+    "name": "Science Centre",
+    "category": "Research",
+    "description": "Science facility containing wet labs, microscopy suites, chemistry teaching rooms, safety training spaces, and research offices.",
+    "opening_hours": "Mon-Fri 08:00-19:00; weekend restricted access",
+    "coordinates": {"lat": 51.7566, "lon": -1.2528},
+    "events": ["Lab safety induction", "Women in STEM seminar", "Research poster evening"]
+  },
+  {
+    "id": 14,
+    "name": "Arts Studio",
+    "category": "Creative",
+    "description": "Creative arts studio with photography bays, editing suites, printmaking equipment, critique rooms, and exhibition wall space.",
+    "opening_hours": "Mon-Fri 09:00-21:00; Sat 10:00-17:00; Sun closed",
+    "coordinates": {"lat": 51.7531, "lon": -1.2517},
+    "events": ["Student exhibition", "Portfolio review", "Photography masterclass"]
+  },
+  {
+    "id": 15,
+    "name": "Music Hall",
+    "category": "Creative",
+    "description": "Performance venue with rehearsal rooms, recording booth, grand piano, sound desk, and evening concert programme.",
+    "opening_hours": "Mon-Fri 09:00-22:00; Sat-Sun 10:00-18:00",
+    "coordinates": {"lat": 51.7527, "lon": -1.2524},
+    "events": ["Jazz evening", "Choir rehearsal", "Student composition showcase"]
+  },
+  {
+    "id": 16,
+    "name": "Accommodation Office",
+    "category": "Student Services",
+    "description": "Housing support office for halls applications, maintenance reporting, private renting advice, and accommodation contracts.",
+    "opening_hours": "Mon-Fri 09:00-17:00; Sat 10:00-14:00; Sun closed",
+    "coordinates": {"lat": 51.7519, "lon": -1.2549},
+    "events": ["Housing fair", "Private renting advice session", "Residence life welcome"]
+  },
+  {
+    "id": 17,
+    "name": "Bookshop",
+    "category": "Retail",
+    "description": "Campus bookshop selling textbooks, stationery, lab notebooks, university merchandise, and course reading bundles.",
+    "opening_hours": "Mon-Fri 09:00-18:00; Sat 10:00-16:00; Sun closed",
+    "coordinates": {"lat": 51.754, "lon": -1.2557},
+    "events": ["Author signing", "Second-hand textbook sale", "Reading list support desk"]
+  },
+  {
+    "id": 18,
+    "name": "Prayer Room",
+    "category": "Faith",
+    "description": "Quiet multi-faith prayer and reflection room with washing facilities, privacy screens, shoe storage, and nearby pastoral support.",
+    "opening_hours": "Daily 07:00-22:00",
+    "coordinates": {"lat": 51.7533, "lon": -1.2535},
+    "events": ["Interfaith dialogue", "Mindfulness session", "Chaplaincy coffee morning"]
+  },
+  {
+    "id": 19,
+    "name": "Research Centre",
+    "category": "Research",
+    "description": "Postgraduate research centre with doctoral offices, project rooms, seminar spaces, ethics support, and interdisciplinary collaboration areas.",
+    "opening_hours": "Mon-Fri 08:00-20:00; Sat 10:00-16:00; Sun closed",
+    "coordinates": {"lat": 51.756, "lon": -1.2556},
+    "events": ["PhD writing retreat", "Research ethics clinic", "Interdisciplinary symposium"]
+  },
+  {
+    "id": 20,
+    "name": "Accessibility Office",
+    "category": "Student Services",
+    "description": "Accessibility and disability support office providing learning plans, assistive technology advice, campus access guidance, and exam adjustments.",
+    "opening_hours": "Mon-Fri 09:00-17:00; Sat-Sun closed",
+    "coordinates": {"lat": 51.7539, "lon": -1.2514},
+    "events": ["Assistive technology demo", "Inclusive teaching forum", "Neurodiversity support group"]
+  }
+]

@@ -1,0 +1,461 @@
+text,intent,location
+Which way is Sports Centre from here?,find_location,Sports Centre
+What events are happening at Student Union?,event_query,Student Union
+Give me information about the student services building,facility_information,Career Centre
+start campus tour,greeting,
+Tell me about workshops at Administration Office,event_query,Administration Office
+What time does Engineering Building open?,opening_hours,Engineering Building
+Where are postgraduate study rooms?,study_space,
+Describe the Music Hall,facility_information,Music Hall
+Take me to the Engineering Building,find_location,Engineering Building
+What facilities does Computer Lab have?,facility_information,Computer Lab
+Who won the football match?,other,
+Take me to the Prayer Room,find_location,Prayer Room
+Does Computer Lab have useful student facilities?,facility_information,Computer Lab
+Show upcoming events for Bookshop,event_query,Bookshop
+What time does Science Centre open?,opening_hours,Science Centre
+Can I buy snacks nearby?,food_services,
+What events are happening at Health Centre?,event_query,Health Centre
+Is Science Centre open this weekend?,opening_hours,Science Centre
+I am done now,goodbye,
+Where is the Library?,find_location,Library
+What events are happening at Computer Lab?,event_query,Computer Lab
+Take me to the Arts Studio,find_location,Arts Studio
+good afternoon,greeting,
+Give me information about the student services building,facility_information,Student Union
+Is Health Centre open this weekend?,opening_hours,Health Centre
+What time does Accommodation Office open?,opening_hours,Accommodation Office
+Show upcoming events for Computer Lab,event_query,Computer Lab
+Take me to the Lecture Hall A,find_location,Lecture Hall A
+When does the Sports Centre close today?,opening_hours,Sports Centre
+What are the hours at Library?,opening_hours,Library
+What facilities does Cafeteria have?,facility_information,Cafeteria
+Are there any activities in the Engineering Building?,event_query,Engineering Building
+What is the meaning of life?,other,
+Tell me about workshops at Music Hall,event_query,Music Hall
+Where is the Accessibility Office?,find_location,Accessibility Office
+How do I get to Bookshop?,find_location,Bookshop
+Where can my team work on coursework?,study_space,
+What are the hours at Science Centre?,opening_hours,Science Centre
+What can I do in the Computer Lab?,facility_information,Computer Lab
+Give me directions to Bookshop,find_location,Bookshop
+Does the lecture hall have an induction loop?,accessibility,
+What events are happening at Accessibility Office?,event_query,Accessibility Office
+Is Innovation Hub open this weekend?,opening_hours,Innovation Hub
+Give me information about the learning building,facility_information,Computer Lab
+Tell me about workshops at Arts Studio,event_query,Arts Studio
+"hi, I need help",greeting,
+Describe the Computer Lab,facility_information,Computer Lab
+What can I do in the Engineering Building?,facility_information,Engineering Building
+Where is the accessibility office?,accessibility,
+What is on at Computer Lab this week?,event_query,Computer Lab
+Where is the Administration Office?,find_location,Administration Office
+What is on at Lecture Hall A this week?,event_query,Lecture Hall A
+can you help me,greeting,
+hey campus assistant,greeting,
+What is on at Student Union this week?,event_query,Student Union
+What are the hours at Health Centre?,opening_hours,Health Centre
+Does Accommodation Office have useful student facilities?,facility_information,Accommodation Office
+Which building is best for late night studying?,study_space,
+What can I do in the Sports Centre?,facility_information,Sports Centre
+Are there any activities in the Library?,event_query,Library
+Can I book a study booth?,study_space,
+What facilities does Library have?,facility_information,Library
+What is on at Innovation Hub this week?,event_query,Innovation Hub
+What can I do in the Arts Studio?,facility_information,Arts Studio
+Describe the Prayer Room,facility_information,Prayer Room
+Give me information about the learning building,facility_information,Library
+Are there any activities in the Research Centre?,event_query,Research Centre
+Which way is Accommodation Office from here?,find_location,Accommodation Office
+Describe the Cafeteria,facility_information,Cafeteria
+What is on at Career Centre this week?,event_query,Career Centre
+When does the Accessibility Office close today?,opening_hours,Accessibility Office
+Describe the Research Centre,facility_information,Research Centre
+What events are happening at Lecture Hall A?,event_query,Lecture Hall A
+What is on at Lecture Hall B this week?,event_query,Lecture Hall B
+Are there any activities in the Accessibility Office?,event_query,Accessibility Office
+What time does Student Union open?,opening_hours,Student Union
+What facilities does Career Centre have?,facility_information,Career Centre
+Which way is Health Centre from here?,find_location,Health Centre
+hi there,greeting,
+Take me to the Cafeteria,find_location,Cafeteria
+How do I get to Career Centre?,find_location,Career Centre
+thanks for your help,goodbye,
+What is the weather today?,other,
+How do I get to Research Centre?,find_location,Research Centre
+Is Arts Studio open this weekend?,opening_hours,Arts Studio
+What can I do in the Music Hall?,facility_information,Music Hall
+Take me to the Student Union,find_location,Student Union
+Give me information about the creative building,facility_information,Music Hall
+When does the Cafeteria close today?,opening_hours,Cafeteria
+How do I get to Lecture Hall B?,find_location,Lecture Hall B
+Where can I get breakfast?,food_services,
+What can I do in the Administration Office?,facility_information,Administration Office
+Play music,other,
+What can I do in the Cafeteria?,facility_information,Cafeteria
+What facilities does Administration Office have?,facility_information,Administration Office
+What events are happening at Music Hall?,event_query,Music Hall
+Which way is Student Union from here?,find_location,Student Union
+What can I do in the Library?,facility_information,Library
+When does the Computer Lab close today?,opening_hours,Computer Lab
+Show upcoming events for Career Centre,event_query,Career Centre
+What facilities does Science Centre have?,facility_information,Science Centre
+Are there any activities in the Student Union?,event_query,Student Union
+Which way is Lecture Hall A from here?,find_location,Lecture Hall A
+Find me a place to study with a laptop,study_space,
+Are there any activities in the Sports Centre?,event_query,Sports Centre
+I need a group study room,study_space,
+Tell me the opening hours for Accommodation Office,opening_hours,Accommodation Office
+Tell me about workshops at Lecture Hall A,event_query,Lecture Hall A
+Tell me the opening hours for Science Centre,opening_hours,Science Centre
+Describe the Lecture Hall B,facility_information,Lecture Hall B
+What can I do in the Lecture Hall B?,facility_information,Lecture Hall B
+Tell me about workshops at Engineering Building,event_query,Engineering Building
+Does Engineering Building have useful student facilities?,facility_information,Engineering Building
+Which way is Lecture Hall B from here?,find_location,Lecture Hall B
+When does the Prayer Room close today?,opening_hours,Prayer Room
+What time does Library open?,opening_hours,Library
+What time does Cafeteria open?,opening_hours,Cafeteria
+Show upcoming events for Innovation Hub,event_query,Innovation Hub
+Show upcoming events for Sports Centre,event_query,Sports Centre
+What can I do in the Accessibility Office?,facility_information,Accessibility Office
+What are the hours at Music Hall?,opening_hours,Music Hall
+Describe the Library,facility_information,Library
+I need step free campus guidance,accessibility,
+Give me directions to Computer Lab,find_location,Computer Lab
+Where can I buy lunch?,food_services,
+Give me directions to Library,find_location,Library
+Does Library have useful student facilities?,facility_information,Library
+When does the Music Hall close today?,opening_hours,Music Hall
+Where is the Computer Lab?,find_location,Computer Lab
+What events are happening at Lecture Hall B?,event_query,Lecture Hall B
+Are there any activities in the Music Hall?,event_query,Music Hall
+Does Bookshop have useful student facilities?,facility_information,Bookshop
+What are the hours at Student Union?,opening_hours,Student Union
+When does the Science Centre close today?,opening_hours,Science Centre
+goodbye,goodbye,
+When does the Student Union close today?,opening_hours,Student Union
+Tell me the opening hours for Library,opening_hours,Library
+Which building has food services?,food_services,
+Is Lecture Hall B open this weekend?,opening_hours,Lecture Hall B
+Where can I get support for neurodiversity?,accessibility,
+hello,greeting,
+Does Lecture Hall B have useful student facilities?,facility_information,Lecture Hall B
+Tell me about workshops at Lecture Hall B,event_query,Lecture Hall B
+What is on at Administration Office this week?,event_query,Administration Office
+Is Administration Office open this weekend?,opening_hours,Administration Office
+bye,goodbye,
+Where is the Prayer Room?,find_location,Prayer Room
+What can I do in the Research Centre?,facility_information,Research Centre
+Describe the Career Centre,facility_information,Career Centre
+Describe the Innovation Hub,facility_information,Innovation Hub
+Describe the Accommodation Office,facility_information,Accommodation Office
+Is there halal food on campus?,food_services,
+How do I get to Administration Office?,find_location,Administration Office
+Describe the Bookshop,facility_information,Bookshop
+Is there somewhere silent to revise?,study_space,
+Which buildings have accessible entrances?,accessibility,
+Give me directions to Health Centre,find_location,Health Centre
+What are the hours at Lecture Hall B?,opening_hours,Lecture Hall B
+What is on at Accessibility Office this week?,event_query,Accessibility Office
+What time does Administration Office open?,opening_hours,Administration Office
+Where is the Engineering Building?,find_location,Engineering Building
+Show upcoming events for Administration Office,event_query,Administration Office
+Where is the Career Centre?,find_location,Career Centre
+Give me directions to Accessibility Office,find_location,Accessibility Office
+Give me directions to Lecture Hall A,find_location,Lecture Hall A
+Give me information about the teaching building,facility_information,Engineering Building
+What time does Innovation Hub open?,opening_hours,Innovation Hub
+Where is the cafeteria?,food_services,
+Can you solve my maths homework?,other,
+Tell me about workshops at Computer Lab,event_query,Computer Lab
+Does Research Centre have useful student facilities?,facility_information,Research Centre
+What facilities does Innovation Hub have?,facility_information,Innovation Hub
+What events are happening at Accommodation Office?,event_query,Accommodation Office
+Give me information about the teaching building,facility_information,Lecture Hall B
+Which way is Bookshop from here?,find_location,Bookshop
+Show upcoming events for Arts Studio,event_query,Arts Studio
+Are there any activities in the Health Centre?,event_query,Health Centre
+What time does Bookshop open?,opening_hours,Bookshop
+What time does Career Centre open?,opening_hours,Career Centre
+What events are happening at Research Centre?,event_query,Research Centre
+What are the hours at Engineering Building?,opening_hours,Engineering Building
+What is on at Prayer Room this week?,event_query,Prayer Room
+What can I do in the Prayer Room?,facility_information,Prayer Room
+Describe the Student Union,facility_information,Student Union
+Give me information about the wellbeing building,facility_information,Sports Centre
+What facilities does Bookshop have?,facility_information,Bookshop
+Give me information about the research building,facility_information,Research Centre
+Give me information about the student services building,facility_information,Accessibility Office
+What facilities does Prayer Room have?,facility_information,Prayer Room
+Give me information about the food building,facility_information,Cafeteria
+Are there any activities in the Lecture Hall B?,event_query,Lecture Hall B
+Tell me about workshops at Research Centre,event_query,Research Centre
+Tell me the opening hours for Engineering Building,opening_hours,Engineering Building
+When does the Library close today?,opening_hours,Library
+Are there any activities in the Bookshop?,event_query,Bookshop
+What can I do in the Accommodation Office?,facility_information,Accommodation Office
+Does Administration Office have useful student facilities?,facility_information,Administration Office
+What events are happening at Administration Office?,event_query,Administration Office
+What can I do in the Innovation Hub?,facility_information,Innovation Hub
+Which way is Career Centre from here?,find_location,Career Centre
+What events are happening at Library?,event_query,Library
+Take me to the Research Centre,find_location,Research Centre
+Give me directions to Lecture Hall B,find_location,Lecture Hall B
+How do I get to Lecture Hall A?,find_location,Lecture Hall A
+Does Student Union have useful student facilities?,facility_information,Student Union
+Tell me the opening hours for Music Hall,opening_hours,Music Hall
+Tell me the opening hours for Innovation Hub,opening_hours,Innovation Hub
+good morning,greeting,
+When does the Arts Studio close today?,opening_hours,Arts Studio
+Does Career Centre have useful student facilities?,facility_information,Career Centre
+What facilities does Research Centre have?,facility_information,Research Centre
+Does Health Centre have useful student facilities?,facility_information,Health Centre
+What is on at Bookshop this week?,event_query,Bookshop
+Tell me about workshops at Career Centre,event_query,Career Centre
+What are the hours at Lecture Hall A?,opening_hours,Lecture Hall A
+What events are happening at Science Centre?,event_query,Science Centre
+Give me directions to Innovation Hub,find_location,Innovation Hub
+What is on at Science Centre this week?,event_query,Science Centre
+Tell me the opening hours for Administration Office,opening_hours,Administration Office
+Take me to the Library,find_location,Library
+Show upcoming events for Lecture Hall A,event_query,Lecture Hall A
+What are the hours at Research Centre?,opening_hours,Research Centre
+What are the hours at Computer Lab?,opening_hours,Computer Lab
+How do I get to Arts Studio?,find_location,Arts Studio
+Give me directions to Sports Centre,find_location,Sports Centre
+Does Accessibility Office have useful student facilities?,facility_information,Accessibility Office
+Describe the Lecture Hall A,facility_information,Lecture Hall A
+Give me directions to Administration Office,find_location,Administration Office
+How much is tuition next year?,other,
+What are the hours at Bookshop?,opening_hours,Bookshop
+Show me campus dining places,food_services,
+What can I do in the Lecture Hall A?,facility_information,Lecture Hall A
+How do I get to Music Hall?,find_location,Music Hall
+Is Computer Lab open this weekend?,opening_hours,Computer Lab
+Give me directions to Student Union,find_location,Student Union
+What can I do in the Student Union?,facility_information,Student Union
+Which way is Administration Office from here?,find_location,Administration Office
+Take me to the Sports Centre,find_location,Sports Centre
+Give me directions to Career Centre,find_location,Career Centre
+Take me to the Health Centre,find_location,Health Centre
+Take me to the Career Centre,find_location,Career Centre
+Tell me the opening hours for Computer Lab,opening_hours,Computer Lab
+Which way is Science Centre from here?,find_location,Science Centre
+Does Arts Studio have useful student facilities?,facility_information,Arts Studio
+Are there any activities in the Arts Studio?,event_query,Arts Studio
+Take me to the Bookshop,find_location,Bookshop
+Show study facilities on campus,study_space,
+What time does Research Centre open?,opening_hours,Research Centre
+Which way is Research Centre from here?,find_location,Research Centre
+What time does Sports Centre open?,opening_hours,Sports Centre
+When does the Administration Office close today?,opening_hours,Administration Office
+Are there any activities in the Prayer Room?,event_query,Prayer Room
+What facilities does Arts Studio have?,facility_information,Arts Studio
+Give me directions to Engineering Building,find_location,Engineering Building
+Is Engineering Building open this weekend?,opening_hours,Engineering Building
+When does the Lecture Hall A close today?,opening_hours,Lecture Hall A
+What are the hours at Accessibility Office?,opening_hours,Accessibility Office
+Give me information about the wellbeing building,facility_information,Health Centre
+What are the hours at Sports Centre?,opening_hours,Sports Centre
+Is Accessibility Office open this weekend?,opening_hours,Accessibility Office
+What facilities does Accessibility Office have?,facility_information,Accessibility Office
+How do I get to Accommodation Office?,find_location,Accommodation Office
+Tell me the opening hours for Prayer Room,opening_hours,Prayer Room
+What time does Arts Studio open?,opening_hours,Arts Studio
+Tell me about workshops at Prayer Room,event_query,Prayer Room
+Tell me the opening hours for Research Centre,opening_hours,Research Centre
+Show upcoming events for Accommodation Office,event_query,Accommodation Office
+Show upcoming events for Lecture Hall B,event_query,Lecture Hall B
+Give me information about the enterprise building,facility_information,Innovation Hub
+Where is the Music Hall?,find_location,Music Hall
+Are there any activities in the Accommodation Office?,event_query,Accommodation Office
+Take me to the Accommodation Office,find_location,Accommodation Office
+see you later,goodbye,
+close the assistant,goodbye,
+What is on at Engineering Building this week?,event_query,Engineering Building
+Which way is Music Hall from here?,find_location,Music Hall
+Which way is Innovation Hub from here?,find_location,Innovation Hub
+Describe the Sports Centre,facility_information,Sports Centre
+What can I do in the Career Centre?,facility_information,Career Centre
+Does Science Centre have useful student facilities?,facility_information,Science Centre
+Show upcoming events for Engineering Building,event_query,Engineering Building
+What facilities does Lecture Hall B have?,facility_information,Lecture Hall B
+Where is the Sports Centre?,find_location,Sports Centre
+Where is the Bookshop?,find_location,Bookshop
+Which way is Engineering Building from here?,find_location,Engineering Building
+that answers my question,goodbye,
+Which way is Accessibility Office from here?,find_location,Accessibility Office
+Tell me the opening hours for Sports Centre,opening_hours,Sports Centre
+What time does Music Hall open?,opening_hours,Music Hall
+How do I get to Accessibility Office?,find_location,Accessibility Office
+Tell me the opening hours for Lecture Hall B,opening_hours,Lecture Hall B
+How do I get to Prayer Room?,find_location,Prayer Room
+Does Music Hall have useful student facilities?,facility_information,Music Hall
+What is on at Sports Centre this week?,event_query,Sports Centre
+Tell me about workshops at Bookshop,event_query,Bookshop
+Which way is Cafeteria from here?,find_location,Cafeteria
+How do I get accessibility help?,accessibility,
+What time does Computer Lab open?,opening_hours,Computer Lab
+Give me directions to Music Hall,find_location,Music Hall
+What time does Lecture Hall A open?,opening_hours,Lecture Hall A
+Take me to the Science Centre,find_location,Science Centre
+When does the Career Centre close today?,opening_hours,Career Centre
+Give me information about the administration building,facility_information,Administration Office
+Show upcoming events for Library,event_query,Library
+What facilities does Student Union have?,facility_information,Student Union
+Is Student Union open this weekend?,opening_hours,Student Union
+What events are happening at Innovation Hub?,event_query,Innovation Hub
+Take me to the Administration Office,find_location,Administration Office
+Is Research Centre open this weekend?,opening_hours,Research Centre
+Tell me about workshops at Accommodation Office,event_query,Accommodation Office
+How do I get to Engineering Building?,find_location,Engineering Building
+What facilities does Lecture Hall A have?,facility_information,Lecture Hall A
+Are there any activities in the Cafeteria?,event_query,Cafeteria
+Where is the Science Centre?,find_location,Science Centre
+Show upcoming events for Prayer Room,event_query,Prayer Room
+What are the hours at Prayer Room?,opening_hours,Prayer Room
+Does Innovation Hub have useful student facilities?,facility_information,Innovation Hub
+How do I get to Cafeteria?,find_location,Cafeteria
+Does Prayer Room have useful student facilities?,facility_information,Prayer Room
+When does the Health Centre close today?,opening_hours,Health Centre
+Take me to the Music Hall,find_location,Music Hall
+Tell me about workshops at Science Centre,event_query,Science Centre
+Take me to the Accessibility Office,find_location,Accessibility Office
+Which way is Library from here?,find_location,Library
+Describe the Science Centre,facility_information,Science Centre
+I need vegetarian food,food_services,
+Where is the Lecture Hall B?,find_location,Lecture Hall B
+When does the Engineering Building close today?,opening_hours,Engineering Building
+Tell me about workshops at Accessibility Office,event_query,Accessibility Office
+What is on at Health Centre this week?,event_query,Health Centre
+Are there any activities in the Innovation Hub?,event_query,Innovation Hub
+Does Lecture Hall A have useful student facilities?,facility_information,Lecture Hall A
+Show upcoming events for Music Hall,event_query,Music Hall
+What facilities does Health Centre have?,facility_information,Health Centre
+How do I get to Computer Lab?,find_location,Computer Lab
+Tell me the opening hours for Cafeteria,opening_hours,Cafeteria
+Show upcoming events for Student Union,event_query,Student Union
+Tell me the opening hours for Arts Studio,opening_hours,Arts Studio
+Tell me the opening hours for Bookshop,opening_hours,Bookshop
+Where is the Health Centre?,find_location,Health Centre
+Where is the nearest coffee?,food_services,
+Tell me the opening hours for Student Union,opening_hours,Student Union
+Where is the Research Centre?,find_location,Research Centre
+What events are happening at Engineering Building?,event_query,Engineering Building
+Where is the Arts Studio?,find_location,Arts Studio
+Is Music Hall open this weekend?,opening_hours,Music Hall
+Take me to the Innovation Hub,find_location,Innovation Hub
+Show upcoming events for Accessibility Office,event_query,Accessibility Office
+Does Sports Centre have useful student facilities?,facility_information,Sports Centre
+Take me to the Computer Lab,find_location,Computer Lab
+What facilities does Sports Centre have?,facility_information,Sports Centre
+Is Sports Centre open this weekend?,opening_hours,Sports Centre
+are you there,greeting,
+Is Library open this weekend?,opening_hours,Library
+When does the Bookshop close today?,opening_hours,Bookshop
+Can someone help with a learning plan?,accessibility,
+Which way is Computer Lab from here?,find_location,Computer Lab
+Where is the Accommodation Office?,find_location,Accommodation Office
+Tell me about workshops at Library,event_query,Library
+Describe the Administration Office,facility_information,Administration Office
+Where is the Cafeteria?,find_location,Cafeteria
+Does this place have assistive technology?,accessibility,
+What is on at Research Centre this week?,event_query,Research Centre
+Describe the Health Centre,facility_information,Health Centre
+Give me information about the creative building,facility_information,Arts Studio
+Where can I find a quiet study space?,study_space,
+Describe the Accessibility Office,facility_information,Accessibility Office
+What can I do in the Bookshop?,facility_information,Bookshop
+Describe the Engineering Building,facility_information,Engineering Building
+Tell me the opening hours for Health Centre,opening_hours,Health Centre
+Show upcoming events for Health Centre,event_query,Health Centre
+What facilities does Music Hall have?,facility_information,Music Hall
+I need disability support,accessibility,
+Are there any activities in the Science Centre?,event_query,Science Centre
+cheers goodbye,goodbye,
+Where can I ask about exam adjustments?,accessibility,
+Give me directions to Accommodation Office,find_location,Accommodation Office
+What events are happening at Prayer Room?,event_query,Prayer Room
+What are the hours at Arts Studio?,opening_hours,Arts Studio
+How do I get to Health Centre?,find_location,Health Centre
+How do I get to Innovation Hub?,find_location,Innovation Hub
+Give me directions to Cafeteria,find_location,Cafeteria
+What can I do in the Health Centre?,facility_information,Health Centre
+What events are happening at Career Centre?,event_query,Career Centre
+What are the hours at Accommodation Office?,opening_hours,Accommodation Office
+Give me information about the research building,facility_information,Science Centre
+What time does Lecture Hall B open?,opening_hours,Lecture Hall B
+What is on at Cafeteria this week?,event_query,Cafeteria
+How do I get to Library?,find_location,Library
+I need study space near the library,study_space,
+end chat,goodbye,
+What are the hours at Cafeteria?,opening_hours,Cafeteria
+Where is the Lecture Hall A?,find_location,Lecture Hall A
+What time does Health Centre open?,opening_hours,Health Centre
+Tell me about workshops at Student Union,event_query,Student Union
+Give me directions to Arts Studio,find_location,Arts Studio
+When does the Research Centre close today?,opening_hours,Research Centre
+Are there any activities in the Lecture Hall A?,event_query,Lecture Hall A
+Give me information about the retail building,facility_information,Bookshop
+Translate this sentence,other,
+Show upcoming events for Cafeteria,event_query,Cafeteria
+What time does Prayer Room open?,opening_hours,Prayer Room
+Which way is Arts Studio from here?,find_location,Arts Studio
+How do I get to Science Centre?,find_location,Science Centre
+What is on at Library this week?,event_query,Library
+What facilities does Accommodation Office have?,facility_information,Accommodation Office
+Is Lecture Hall A open this weekend?,opening_hours,Lecture Hall A
+Tell me the opening hours for Accessibility Office,opening_hours,Accessibility Office
+What is on at Arts Studio this week?,event_query,Arts Studio
+When does the Innovation Hub close today?,opening_hours,Innovation Hub
+Is Bookshop open this weekend?,opening_hours,Bookshop
+Tell me a joke,other,
+Tell me about workshops at Sports Centre,event_query,Sports Centre
+When does the Accommodation Office close today?,opening_hours,Accommodation Office
+thanks that is all,goodbye,
+Give me information about the student services building,facility_information,Accommodation Office
+Give me directions to Science Centre,find_location,Science Centre
+Tell me about workshops at Cafeteria,event_query,Cafeteria
+Give me directions to Research Centre,find_location,Research Centre
+What events are happening at Cafeteria?,event_query,Cafeteria
+Tell me about workshops at Innovation Hub,event_query,Innovation Hub
+What are the hours at Career Centre?,opening_hours,Career Centre
+Order a taxi,other,
+Tell me the opening hours for Career Centre,opening_hours,Career Centre
+What are the hours at Innovation Hub?,opening_hours,Innovation Hub
+Does Cafeteria have useful student facilities?,facility_information,Cafeteria
+Is Cafeteria open this weekend?,opening_hours,Cafeteria
+Which way is Prayer Room from here?,find_location,Prayer Room
+What facilities does Engineering Building have?,facility_information,Engineering Building
+Show upcoming events for Science Centre,event_query,Science Centre
+How do I get to Student Union?,find_location,Student Union
+What is on at Accommodation Office this week?,event_query,Accommodation Office
+Where is the Innovation Hub?,find_location,Innovation Hub
+Describe the Arts Studio,facility_information,Arts Studio
+Are there any activities in the Career Centre?,event_query,Career Centre
+What time does Accessibility Office open?,opening_hours,Accessibility Office
+What is on at Music Hall this week?,event_query,Music Hall
+What food options are open now?,food_services,
+Give me directions to Prayer Room,find_location,Prayer Room
+What can I do in the Science Centre?,facility_information,Science Centre
+Is Accommodation Office open this weekend?,opening_hours,Accommodation Office
+What are the hours at Administration Office?,opening_hours,Administration Office
+What events are happening at Sports Centre?,event_query,Sports Centre
+Are there any activities in the Administration Office?,event_query,Administration Office
+Give me information about the faith building,facility_information,Prayer Room
+Give me information about the teaching building,facility_information,Lecture Hall A
+Show upcoming events for Research Centre,event_query,Research Centre
+Tell me the opening hours for Lecture Hall A,opening_hours,Lecture Hall A
+What events are happening at Bookshop?,event_query,Bookshop
+Tell me about workshops at Health Centre,event_query,Health Centre
+How do I get to Sports Centre?,find_location,Sports Centre
+What is the university ranking?,other,
+Where is the Student Union?,find_location,Student Union
+Is Career Centre open this weekend?,opening_hours,Career Centre
+Are there any activities in the Computer Lab?,event_query,Computer Lab
+When does the Lecture Hall B close today?,opening_hours,Lecture Hall B
+What events are happening at Arts Studio?,event_query,Arts Studio
+Is Prayer Room open this weekend?,opening_hours,Prayer Room
+hello chatbot,greeting,
+Take me to the Lecture Hall B,find_location,Lecture Hall B

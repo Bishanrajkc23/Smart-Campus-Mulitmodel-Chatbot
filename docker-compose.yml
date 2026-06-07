@@ -1,0 +1,13 @@
+services:
+  campus-chatbot:
+    build: .
+    container_name: smart-campus-chatbot
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./reports:/app/reports
+    environment:
+      - PYTHONUNBUFFERED=1
+      - STREAMLIT_SERVER_HEADLESS=true
