@@ -1,5 +1,3 @@
-"""End-to-end evaluation runner and visualization generator."""
-
 from __future__ import annotations
 
 import argparse
@@ -219,7 +217,7 @@ def save_model_comparison(results: dict[str, dict]) -> None:
 
 def save_error_analysis(test_results: pd.DataFrame) -> None:
     errors = test_results[
-        (test_results["location_pass"] == False) | (test_results["intent_pass"] == False)  # noqa: E712
+        (test_results["location_pass"] == False) | (test_results["intent_pass"] == False)
     ].copy()
     if errors.empty:
         errors = pd.DataFrame(

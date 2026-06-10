@@ -1,5 +1,3 @@
-"""Multimodal fusion model for campus knowledge retrieval."""
-
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -28,8 +26,6 @@ from .utils import FIGURES_DIR, RESULTS_DIR
 
 if nn is not None:
     class MLPFusionNetwork(nn.Module):
-        """Simple MLP that learns to score campus records from fused modalities."""
-
         def __init__(self, input_dim: int, n_locations: int, hidden_dim: int = 512, dropout: float = 0.2):
             super().__init__()
             self.network = nn.Sequential(
@@ -46,8 +42,6 @@ if nn is not None:
             return self.network(fused)
 else:
     class MLPFusionNetwork:
-        """No-op fallback used when PyTorch is not installed."""
-
         def __init__(self, *args, **kwargs):
             self.available = False
 
@@ -62,8 +56,6 @@ class FusionInput:
 
 
 class MultiModalFusionEngine:
-    """Fuse image, typed text, and speech transcript signals for retrieval."""
-
     def __init__(
         self,
         knowledge_base: CampusKnowledgeBase | None = None,

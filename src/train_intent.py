@@ -1,5 +1,3 @@
-"""Fine-tune DistilBERT for campus FAQ intent classification."""
-
 from __future__ import annotations
 
 import argparse

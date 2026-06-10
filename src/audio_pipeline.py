@@ -1,5 +1,3 @@
-"""Whisper speech understanding and audio preprocessing pipeline."""
-
 from __future__ import annotations
 
 from pathlib import Path
@@ -12,8 +10,6 @@ from .utils import FIGURES_DIR, RESULTS_DIR, word_error_rate
 
 
 class WhisperAudioPipeline:
-    """Speech-to-text pipeline based on OpenAI Whisper."""
-
     def __init__(self, model_size: str = "base"):
         self.model_size = model_size
         self.model = None
@@ -72,8 +68,6 @@ class WhisperAudioPipeline:
         }
 
     def evaluate(self, manifest: pd.DataFrame, output_dir: Path = FIGURES_DIR) -> dict[str, float]:
-        """Evaluate WER for a manifest containing audio_path and reference_text."""
-
         output_dir.mkdir(parents=True, exist_ok=True)
         RESULTS_DIR.mkdir(parents=True, exist_ok=True)
         rows = []

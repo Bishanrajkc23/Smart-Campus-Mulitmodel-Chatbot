@@ -1,5 +1,3 @@
-"""CLIP + FAISS image understanding pipeline."""
-
 from __future__ import annotations
 
 import hashlib
@@ -16,13 +14,6 @@ from .utils import DATA_DIR, FIGURES_DIR
 
 
 class CLIPCampusRetriever:
-    """Retrieve likely campus buildings from an uploaded image.
-
-    The primary path uses ``openai/clip-vit-base-patch32``. A deterministic
-    fallback is included so the app can still demonstrate the interface if
-    model weights are unavailable during marking.
-    """
-
     def __init__(
         self,
         knowledge_base: CampusKnowledgeBase | None = None,
@@ -65,8 +56,6 @@ class CLIPCampusRetriever:
 
     @staticmethod
     def preprocess_with_opencv(image_path: str | Path, size: tuple[int, int] = (224, 224)) -> np.ndarray:
-        """OpenCV resize and normalization path for preprocessing experiments."""
-
         import cv2
 
         image = cv2.imread(str(image_path), cv2.IMREAD_COLOR)
@@ -81,8 +70,6 @@ class CLIPCampusRetriever:
 
     @staticmethod
     def augment_image(image: Image.Image) -> list[Image.Image]:
-        """Return simple augmentation views for reportable preprocessing."""
-
         from PIL import ImageEnhance
 
         image = image.convert("RGB")
@@ -173,8 +160,6 @@ class CLIPCampusRetriever:
         }
 
     def evaluate(self, manifest: pd.DataFrame | None = None, output_dir: Path = FIGURES_DIR) -> dict[str, Any]:
-        """Evaluate top-1/top-3 retrieval using a manifest with image_path,label."""
-
         output_dir.mkdir(parents=True, exist_ok=True)
         if manifest is None:
             rows = []

@@ -1,11 +1,3 @@
-"""Generate a Google Colab notebook for the Smart Campus project.
-
-The notebook is intentionally self-contained: it creates synthetic campus data,
-writes a Colab Streamlit app, launches it through a public tunnel, and includes
-basic evaluation cells. This avoids asking the marker to recreate the local
-folder layout manually inside Colab.
-"""
-
 from __future__ import annotations
 
 import json

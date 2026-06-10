@@ -1,10 +1,3 @@
-"""Shared utilities and synthetic data generation.
-
-The project is intentionally self-contained for MSc assessment: if a marker
-clones the repository and runs the app, all campus records, FAQ examples,
-placeholder campus images, and reporting folders can be generated locally.
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -72,8 +65,6 @@ STOPWORDS = {
 
 
 def ensure_directories() -> None:
-    """Create all assignment-required directories."""
-
     paths = [
         DATA_DIR / "campus_images",
         DATA_DIR / "audio_queries",
@@ -101,8 +92,6 @@ def load_locations() -> list[dict]:
 
 
 def save_json_export(locations: Sequence[dict] | None = None) -> Path:
-    """Write a normalized JSON export used by the app and evaluation scripts."""
-
     ensure_directories()
     locations = list(locations or load_locations())
     export_path = DATA_DIR / "campus_knowledge_export.json"
@@ -119,8 +108,6 @@ def normalize_text(text: str) -> str:
 
 
 def simple_lemmatize(token: str) -> str:
-    """Small dependency-free lemmatizer fallback for preprocessing reports."""
-
     for suffix in ("ing", "ies", "ied", "ed", "s"):
         if len(token) > len(suffix) + 3 and token.endswith(suffix):
             if suffix == "ies":
@@ -172,8 +159,6 @@ def _location_templates(location: dict) -> dict[str, list[str]]:
 
 
 def build_synthetic_faq_dataset(min_examples: int = 300) -> pd.DataFrame:
-    """Create a balanced synthetic FAQ dataset for DistilBERT intent training."""
-
     locations = load_locations()
     rows: list[dict[str, str]] = []
 
@@ -293,8 +278,6 @@ def write_faq_dataset(min_examples: int = 300) -> Path:
 
 
 def create_placeholder_campus_images(force: bool = False) -> list[Path]:
-    """Generate simple image fixtures for CLIP retrieval demos and tests."""
-
     ensure_directories()
     try:
         from PIL import Image, ImageDraw, ImageFont
@@ -331,8 +314,6 @@ def create_placeholder_campus_images(force: bool = False) -> list[Path]:
 
 
 def word_error_rate(reference: str, hypothesis: str) -> float:
-    """Dependency-free WER calculation used by audio evaluation."""
-
     ref = normalize_text(reference).split()
     hyp = normalize_text(hypothesis).split()
     if not ref:
@@ -370,8 +351,6 @@ def save_class_distribution(df: pd.DataFrame, label_col: str, output_path: Path,
 
 
 def bootstrap_project_assets(force: bool = False, generate_figures: bool = True) -> None:
-    """Generate local assets required for a runnable demonstration."""
-
     ensure_directories()
     save_json_export()
     if force or not FAQ_CSV.exists() or len(pd.read_csv(FAQ_CSV)) < 300:

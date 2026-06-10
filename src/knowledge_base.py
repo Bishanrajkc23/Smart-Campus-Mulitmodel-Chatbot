@@ -1,5 +1,3 @@
-"""SQLite knowledge base and semantic retrieval for campus information."""
-
 from __future__ import annotations
 
 import json
@@ -27,8 +25,6 @@ class SearchResult:
 
 
 class CampusKnowledgeBase:
-    """Campus records stored in SQLite with optional SentenceTransformer search."""
-
     def __init__(self, db_path: Path = DB_PATH, json_path: Path = LOCATION_JSON):
         self.db_path = Path(db_path)
         self.json_path = Path(json_path)
@@ -142,8 +138,6 @@ class CampusKnowledgeBase:
 
     @staticmethod
     def expand_query(query: str) -> str:
-        """Add lightweight spelling and alias normalization for campus queries."""
-
         replacements = {
             "heppening": "happening",
             "hapenning": "happening",
@@ -257,8 +251,6 @@ class CampusKnowledgeBase:
         return [SearchResult(locations[i], float(scores[i])) for i in order]
 
     def direction_hint(self, location: dict[str, Any]) -> str:
-        """Return a simple route-style hint from the central quad."""
-
         lat = location["coordinates"]["lat"]
         lon = location["coordinates"]["lon"]
         centre_lat, centre_lon = 51.7540, -1.2540

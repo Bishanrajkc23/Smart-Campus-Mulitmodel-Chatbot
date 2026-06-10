@@ -1,5 +1,3 @@
-"""Streamlit deployment for the Smart Campus multimodal chatbot."""
-
 from __future__ import annotations
 
 import tempfile

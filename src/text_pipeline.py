@@ -1,5 +1,3 @@
-"""Text understanding pipeline for FAQ intent classification."""
-
 from __future__ import annotations
 
 import json
@@ -22,8 +20,6 @@ from .utils import FAQ_CSV, FIGURES_DIR, INTENTS, MODELS_DIR, RESULTS_DIR, norma
 
 
 class IntentClassifier:
-    """DistilBERT intent classifier with an interpretable fallback."""
-
     def __init__(
         self,
         model_dir: Path = MODELS_DIR / "nlp" / "distilbert-intent",
